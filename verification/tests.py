@@ -11,26 +11,34 @@ Each test is a dict with
 TESTS = {
     "Basics": [
         {
-            "input": [3, 2],
-            "answer": 5,
-            "explanation": "3+2=?"
+            "input": ['hi'],
+            "answer": 0,
         },
         {
-            "input": [5, 7],
-            "answer": 12,
-            "explanation": "5+7=?"
-        }
+            "input": ['who is 1st here'],
+            "answer": 1,
+        },
+        {
+            "input": ['my numbers is 2'],
+            "answer": 1,
+        },
+        {
+            "input": ['This picture is an oil on canvas painting by Danish artist Anna Petersen between 1845 and 1910 year'],
+            "answer": 8,
+        },
+        {
+            "input": ['5 plus 6 is'],
+            "answer": 2,
+        },
+        {
+            "input": [''],
+            "answer": 0,
+        },
     ],
     "Extra": [
         {
-            "input": [6, 3],
-            "answer": 9,
-            "explanation": "6+3=?"
+            "input": ['It is the natural number following 4 and preceding 6  and is a prime number'],
+            "answer": 2,
         },
-        {
-            "input": [6, 7],
-            "answer": 13,
-            "explanation": "6+7=?"
-        }
     ]
 }
