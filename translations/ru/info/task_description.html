@@ -1,0 +1,44 @@
+<!-- Describe task in general -->
+
+<p>
+    Вам нужно подсчитать количество цифр в данной строке.
+</p>
+
+<!-- Explain input and output values -->
+<p>
+    <strong>Входные данные: </strong> строка.
+</p>
+
+<p>
+    <strong>Выходные данные: </strong> целое число. 
+</p>
+
+<!-- Give some usage examples -->
+<div class="for_info_only">
+    <p>
+        <strong>Примеры:</strong>
+    </p>
+
+{% if interpreter.slug == "js-node" %}
+<pre class="brush: javascript">countDigits('hi') == 0
+countDigits('who is 1st here') == 1
+countDigits('my numbers is 2') == 1
+countDigits('This picture is an oil on canvas '
+ 'painting by Danish artist Anna '
+ 'Petersen between 1845 and 1910 year') == 8
+countDigits('5 plus 6 is') == 2
+countDigits('') == 0
+</pre>
+{% else %}
+<pre class="brush: python">count_digits('hi') == 0
+count_digits('who is 1st here') == 1
+count_digits('my numbers is 2') == 1
+count_digits('This picture is an oil on canvas '
+ 'painting by Danish artist Anna '
+ 'Petersen between 1845 and 1910 year') == 8
+count_digits('5 plus 6 is') == 2
+count_digits('') == 0
+</pre>
+{% endif %}
+</div>
+
